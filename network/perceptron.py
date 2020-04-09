@@ -26,10 +26,7 @@ class Perceptron:
 
     def learn(self, inputs, target, iterations=default_iterations_number):
         # Todo: fixme
-        if target == self.name:
-            target = 1
-        else:
-            target = 0
+        target = 1 if target == self.name else 0
         inputs = copy(inputs)
         inputs.append(self.bias_input)
         for iteration in range(iterations):
@@ -47,7 +44,7 @@ class Perceptron:
             raise AttributeError
         learned = 0
         for _ in range(iterations):
-            for i in range(len(inputs_list)):
+            for i in enumerate(inputs_list):
                 learning_iter = self.learn(inputs_list[i], targets_list[i], iterations=iterations)
                 if learning_iter != 0:
                     learned = 0

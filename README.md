@@ -1,7 +1,7 @@
 # SimpleNumberRecognizer
 
 ### Perceptron based simple number recognizer written using pure Python 3.
-[![CodeFactor](https://www.codefactor.io/repository/github/masich/simplenumberrecognizer/badge)](https://www.codefactor.io/repository/github/masich/simplenumberrecognizer)
+[![CodeFactor](https://www.codefactor.io/repository/github/masich/simple-number-recognizer/badge)](https://www.codefactor.io/repository/github/masich/simple-number-recognizer)
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
 This project is created just for fun and practice.
